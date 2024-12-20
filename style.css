@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main-section {
+  width: 1440px;
+  height: 1024px;
+  background-color: #eff2f9;
+}
+
+.card {
+  width: 1170px;
+  height: 800px;
+  box-shadow: 20px 20px 40px 0 rgba(81, 91, 117, 0.25);
+  background-color: #fff;
+}
+
+.preview {
+  width: 80px;
+  height: 80px;
+  background-color: #fff;
+}
+
+.preview.selected {
+  box-shadow: 8px 8px 16px 0 rgba(81, 91, 117, 0.25);
+}
